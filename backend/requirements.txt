@@ -1,0 +1,26 @@
+# ========================================================
+# How to run the application anytime:
+#
+# Simply run this command in your terminal:
+#   .\start_dev.bat
+# (Or in PowerShell: .\start.ps1)
+#
+# This one-click command will:
+# 1. Clear any stuck processes on ports 8000 & 5173
+# 2. Launch FastAPI Backend on http://127.0.0.1:8000
+# 3. Launch Vite React Frontend on http://localhost:5173
+# ========================================================
+
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+pydantic-settings>=2.2
+python-dotenv>=1.0
+pandas>=2.1
+numpy>=1.26
+scikit-learn>=1.6
+joblib>=1.3
+yfinance>=0.2.40
+cachetools>=5.3
+pytest>=8.0
+httpx>=0.27
